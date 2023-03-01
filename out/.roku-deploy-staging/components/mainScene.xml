@@ -1,0 +1,203 @@
+<?xml version ="1.0" encoding="utf-8"?>
+
+<component name="MainScene" extends= "Scene">
+
+    <script type="text/brightscript" uri="mainScene.brs" />
+    
+    <children>
+        
+<!--             <LayoutGroup>
+                    <Label
+                        id="title"
+                        text = "Hello World Wilson!"
+                        horizAlign = "center"
+                        vertAlign = "bottom"
+                        translation="[318,8]"
+                        font="font:MediumBoldSystemFont"
+                    />
+            </LayoutGroup> -->
+        <LayoutGroup 
+            id = "fullysaturatedcolors" 
+            translation = "[40,60]" 
+            itemSpacings = "[20]" 
+            layoutDirection = "vert" 
+        >
+
+        <Rectangle
+        id="principal1" 
+        height = "90" 
+        width = "90" 
+        color = "0x000000"
+        >
+            <Rectangle 
+            color = "0xFFFFFF" 
+            height = "90" 
+            width = "90"
+            visible="true" 
+            >
+            </Rectangle>
+
+           <Poster
+            id="Poster1"
+            uri="pkg:/images/Perfil1.JPG"
+            width="80"
+            height="80"
+            translation="[5,5]" 
+            />
+
+            <Label
+            id="label1"
+            height="44"
+            width="0"
+            font="font:MediumBoldSystemFont"
+            text = "Wilson"
+            horizAlign = "left"
+            vertAlign = "center"
+            translation="[100,8]" />
+            
+        </Rectangle>
+
+
+        
+        <Rectangle
+        id="principal2" 
+        height = "90" 
+        width = "90" 
+        color = "0x000000"
+        >
+            <Rectangle 
+            color = "0xFFFFFF" 
+            height = "90" 
+            width = "90"
+            visible="false"
+            >
+            </Rectangle>
+
+            <Poster
+            id="Poster2"
+            uri="pkg:/images/Perfil2.JPG"
+            width="80"
+            height="80"
+            translation="[5,5]" 
+            />
+            <Label
+            id="label2"
+            height="44"
+            width="0"
+            font="font:MediumBoldSystemFont"
+            text = "Daniela"
+            horizAlign = "left"
+            vertAlign = "center"
+            translation="[100,8]" />
+        </Rectangle>
+        
+
+        <Rectangle
+        id="principal3" 
+        height = "90" 
+        width = "90" 
+        color = "0x000000"
+        >
+            <Rectangle 
+            color = "0xFFFFFF" 
+            height = "90" 
+            width = "90" 
+            visible="false"
+            >
+            </Rectangle>
+
+            <Poster
+            id="Poster3"
+            uri="pkg:/images/Perfil3.JPG"
+            width="80"
+            height="80"
+            translation="[5,5]"
+            />
+            <Label
+            id="label3"
+            height="44"
+            width="0"
+            font="font:MediumBoldSystemFont"
+            text = "Moises"
+            horizAlign = "left"
+            vertAlign = "center"
+            translation="[100,8]" />            
+
+        </Rectangle>
+
+
+        <Rectangle
+        id="principal4" 
+        height = "90" 
+        width = "90" 
+        color = "0x000000"
+        >
+            <Rectangle 
+            color = "0xFFFFFF" 
+            height = "90" 
+            width = "90"
+            visible="false" >
+            </Rectangle>
+
+            <Poster
+            id="Poster4"
+            uri="pkg:/images/Perfil4.JPG"
+            width="80"
+            height="80"
+            translation="[5,5]" 
+            />
+
+            <Label
+            id="label4"
+            height="44"
+            width="0"
+            font="font:MediumBoldSystemFont"
+            text = "Juan"
+            horizAlign = "left"
+            vertAlign = "center"
+            translation="[100,8]" /> 
+
+        </Rectangle>
+
+        <Rectangle
+        id="principal5" 
+        height = "90" 
+        width = "90" 
+        color = "0x000000"
+        >  
+            <Rectangle 
+            color = "0xFFFFFF" 
+            height = "90" 
+            width = "90" 
+            visible="false">
+            </Rectangle>
+
+            <Poster
+            id="Poster5"
+            uri="pkg:/images/Perfil5.JPG"
+            width="80"
+            height="80"
+            translation="[5,5]" 
+            />
+
+            <Label
+            id="label5"
+            height="44"
+            width="0"
+            font="font:MediumBoldSystemFont"
+            text = "Niños"
+            horizAlign = "left"
+            vertAlign = "center"
+            translation="[100,8]" />             
+
+        </Rectangle>
+
+      
+
+      </LayoutGroup> 
+
+            
+          
+    </children>
+    
+</component>

@@ -1,0 +1,13 @@
+# chanel details
+title=helloWorld
+major_version=1
+minor_version=0
+build_version=0
+#Resolution
+ui_resolutions = fhd
+
+# Chanel assets
+
+
+splash_color=#201f2a
+splash_min_time=1000
